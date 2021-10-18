@@ -61,3 +61,11 @@ Q: What are you making this site with?
 
 A: Tree and vim. Tree is a recursive directory listing program that produces a depth-indented 
 listing of files and output is to tty. However, with a bit of tweaking you can produce HTML pages with it.
+
+
+TODO
+----
+TODO: 
+* MODIFY: BODY { font-family : sans-serif, monospace, sans-serif; background-image: url("tile.gif"); background-repeat: repeat; background-color: #F1F1F1;}
+* ADD: <link rel="icon" href="favicon.ico" type="image/x-icon">
+
