@@ -65,7 +65,6 @@ listing of files and output is to tty. However, with a bit of tweaking you can p
 
 TODO
 ----
-TODO: 
 * MODIFY: BODY { font-family : sans-serif, monospace, sans-serif; background-image: url("tile.gif"); background-repeat: repeat; background-color: #F1F1F1;}
 * ADD: <link rel="icon" href="favicon.ico" type="image/x-icon">
 
