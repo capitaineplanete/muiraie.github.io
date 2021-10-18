@@ -14,15 +14,14 @@ grep "new file" | awk -F ':' '{print $2}' | xargs git commit -m && git push
 About This Site
 ---------------
 
-This site is primarily a repository of plain text files <a href="https://en.wikipedia.org/wiki/ASCII">(US-ASCII)</a> that I 
+This site is primarily a repository of plain text files US-ASCII that I 
 have either written, collected or converted. They are mostly set at a fixed 
 column width and may not play nicely with your modern browser or smartphone. All 
 files with a .txt suffix are US-ASCII. While the site is designed mainly for 
 my own use, I am happy to share it. Please feel free to peruse and/or download 
 anything you find of interest.
 
-The site is automagically generated in html/css by tree-1.8.0 and is hosted by 
-the <a href="https://sdf.org">SDF Public Access UNIX System</a>
+The site is automagically generated in html/css by tree-1.8.0.
 Please note that things around here tend to get added, removed, renamed and/or 
 relocated not infrequently so directly linking to an individual file is probably 
 not a good idea. Best to download a copy for yourself or request a 
