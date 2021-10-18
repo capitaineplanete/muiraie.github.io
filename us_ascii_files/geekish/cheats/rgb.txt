@@ -1,0 +1,951 @@
+# License: http://creativecommons.org/publicdomain/zero/1.0/
+
+     1	acid green                        8ffe09
+     2	adobe                             bd6c48
+     3	algae                             54ac68
+     4	algae green                       21c36f
+     5	almost black                      070d0d
+     6	amber                             feb308
+     7	amethyst                          9b5fc0
+     8	apple                             6ecb3c
+     9	apple green                       76cd26
+    10	apricot                           ffb16d
+    11	aqua                              13eac9
+    12	aqua blue                         02d8e9
+    13	aqua green                        12e193
+    14	aquamarine                        04d8b2
+    15	aqua marine                       2ee8bb
+    16	army green                        4b5d16
+    17	asparagus                         77ab56
+    18	aubergine                         3d0734
+    19	auburn                            9a3001
+    20	avocado                           90b134
+    21	avocado green                     87a922
+    22	azul                              1d5dec
+    23	azure                             069af3
+    24	baby blue                         a2cffe
+    25	baby green                        8cff9e
+    26	baby pink                         ffb7ce
+    27	baby poo                          ab9004
+    28	baby poop                         937c00
+    29	baby poop green                   8f9805
+    30	baby puke green                   b6c406
+    31	baby purple                       ca9bf7
+    32	baby shit brown                   ad900d
+    33	baby shit green                   889717
+    34	banana                            ffff7e
+    35	banana yellow                     fafe4b
+    36	barbie pink                       fe46a5
+    37	barf green                        94ac02
+    38	barney                            ac1db8
+    39	barney purple                     a00498
+    40	battleship grey                   6b7c85
+    41	beige                             e6daa6
+    42	berry                             990f4b
+    43	bile                              b5c306
+    44	black                             000000
+    45	bland                             afa88b
+    46	blood                             770001
+    47	blood orange                      fe4b03
+    48	blood red                         980002
+    49	blue                              0343df
+    50	blueberry                         464196
+    51	blue blue                         2242c7
+    52	bluegreen                         017a79
+    53	blue/green                        0f9b8e
+    54	blue green                        137e6d
+    55	blue grey                         607c8e
+    56	blue/grey                         758da3
+    57	bluegrey                          85a3b2
+    58	blue purple                       5729ce
+    59	blue/purple                       5a06ef
+    60	blue violet                       5d06e9
+    61	blue with a hint of purple        533cc6
+    62	bluey green                       2bb179
+    63	bluey grey                        89a0b0
+    64	bluey purple                      6241c7
+    65	bluish                            2976bb
+    66	bluish green                      10a674
+    67	bluish grey                       748b97
+    68	bluish purple                     703be7
+    69	blurple                           5539cc
+    70	blush                             f29e8e
+    71	blush pink                        fe828c
+    72	booger                            9bb53c
+    73	booger green                      96b403
+    74	bordeaux                          7b002c
+    75	boring green                      63b365
+    76	bottle green                      044a05
+    77	brick                             a03623
+    78	brick orange                      c14a09
+    79	brick red                         8f1402
+    80	bright aqua                       0bf9ea
+    81	bright blue                       0165fc
+    82	bright cyan                       41fdfe
+    83	bright green                      01ff07
+    84	bright lavender                   c760ff
+    85	bright light blue                 26f7fd
+    86	bright light green                2dfe54
+    87	bright lilac                      c95efb
+    88	bright lime                       87fd05
+    89	bright lime green                 65fe08
+    90	bright magenta                    ff08e8
+    91	bright olive                      9cbb04
+    92	bright orange                     ff5b00
+    93	bright pink                       fe01b1
+    94	bright purple                     be03fd
+    95	bright red                        ff000d
+    96	bright sea green                  05ffa6
+    97	bright sky blue                   02ccfe
+    98	bright teal                       01f9c6
+    99	bright turquoise                  0ffef9
+   100	bright violet                     ad0afd
+   101	bright yellow                     fffd01
+   102	bright yellow green               9dff00
+   103	british racing green              05480d
+   104	bronze                            a87900
+   105	brown                             653700
+   106	brown green                       706c11
+   107	brown grey                        8d8468
+   108	brownish                          9c6d57
+   109	brownish green                    6a6e09
+   110	brownish grey                     86775f
+   111	brownish orange                   cb7723
+   112	brownish pink                     c27e79
+   113	brownish purple                   76424e
+   114	brownish red                      9e3623
+   115	brownish yellow                   c9b003
+   116	brown orange                      b96902
+   117	brown red                         922b05
+   118	brown yellow                      b29705
+   119	browny green                      6f6c0a
+   120	browny orange                     ca6b02
+   121	bruise                            7e4071
+   122	bubblegum                         ff6cb5
+   123	bubblegum pink                    fe83cc
+   124	bubble gum pink                   ff69af
+   125	buff                              fef69e
+   126	burgundy                          610023
+   127	burnt orange                      c04e01
+   128	burnt red                         9f2305
+   129	burnt siena                       b75203
+   130	burnt sienna                      b04e0f
+   131	burnt umber                       a0450e
+   132	burnt yellow                      d5ab09
+   133	burple                            6832e3
+   134	butter                            ffff81
+   135	butterscotch                      fdb147
+   136	butter yellow                     fffd74
+   137	cadet blue                        4e7496
+   138	camel                             c69f59
+   139	camo                              7f8f4e
+   140	camo green                        526525
+   141	camouflage green                  4b6113
+   142	canary                            fdff63
+   143	canary yellow                     fffe40
+   144	candy pink                        ff63e9
+   145	caramel                           af6f09
+   146	carmine                           9d0216
+   147	carnation                         fd798f
+   148	carnation pink                    ff7fa7
+   149	carolina blue                     8ab8fe
+   150	celadon                           befdb7
+   151	celery                            c1fd95
+   152	cement                            a5a391
+   153	cerise                            de0c62
+   154	cerulean                          0485d1
+   155	cerulean blue                     056eee
+   156	charcoal                          343837
+   157	charcoal grey                     3c4142
+   158	chartreuse                        c1f80a
+   159	cherry                            cf0234
+   160	cherry red                        f7022a
+   161	chestnut                          742802
+   162	chocolate                         3d1c02
+   163	chocolate brown                   411900
+   164	cinnamon                          ac4f06
+   165	claret                            680018
+   166	clay                              b66a50
+   167	clay brown                        b2713d
+   168	clear blue                        247afd
+   169	cloudy blue                       acc2d9
+   170	cobalt                            1e488f
+   171	cobalt blue                       030aa7
+   172	cocoa                             875f42
+   173	coffee                            a6814c
+   174	cool blue                         4984b8
+   175	cool green                        33b864
+   176	cool grey                         95a3a6
+   177	copper                            b66325
+   178	coral                             fc5a50
+   179	coral pink                        ff6163
+   180	cornflower                        6a79f7
+   181	cornflower blue                   5170d7
+   182	cranberry                         9e003a
+   183	cream                             ffffc2
+   184	creme                             ffffb6
+   185	crimson                           8c000f
+   186	custard                           fffd78
+   187	cyan                              00ffff
+   188	dandelion                         fedf08
+   189	dark                              1b2431
+   190	dark aqua                         05696b
+   191	dark aquamarine                   017371
+   192	dark beige                        ac9362
+   193	dark blue                         00035b
+   194	darkblue                          030764
+   195	dark blue green                   005249
+   196	dark blue grey                    1f3b4d
+   197	dark brown                        341c02
+   198	dark coral                        cf524e
+   199	dark cream                        fff39a
+   200	dark cyan                         0a888a
+   201	dark forest green                 002d04
+   202	dark fuchsia                      9d0759
+   203	dark gold                         b59410
+   204	dark grass green                  388004
+   205	dark green                        033500
+   206	darkgreen                         054907
+   207	dark green blue                   1f6357
+   208	dark grey                         363737
+   209	dark grey blue                    29465b
+   210	dark hot pink                     d90166
+   211	dark indigo                       1f0954
+   212	darkish blue                      014182
+   213	darkish green                     287c37
+   214	darkish pink                      da467d
+   215	darkish purple                    751973
+   216	darkish red                       a90308
+   217	dark khaki                        9b8f55
+   218	dark lavender                     856798
+   219	dark lilac                        9c6da5
+   220	dark lime                         84b701
+   221	dark lime green                   7ebd01
+   222	dark magenta                      960056
+   223	dark maroon                       3c0008
+   224	dark mauve                        874c62
+   225	dark mint                         48c072
+   226	dark mint green                   20c073
+   227	dark mustard                      a88905
+   228	dark navy                         000435
+   229	dark navy blue                    00022e
+   230	dark olive                        373e02
+   231	dark olive green                  3c4d03
+   232	dark orange                       c65102
+   233	dark pastel green                 56ae57
+   234	dark peach                        de7e5d
+   235	dark periwinkle                   665fd1
+   236	dark pink                         cb416b
+   237	dark plum                         3f012c
+   238	dark purple                       35063e
+   239	dark red                          840000
+   240	dark rose                         b5485d
+   241	dark royal blue                   02066f
+   242	dark sage                         598556
+   243	dark salmon                       c85a53
+   244	dark sand                         a88f59
+   245	dark seafoam                      1fb57a
+   246	dark seafoam green                3eaf76
+   247	dark sea green                    11875d
+   248	dark sky blue                     448ee4
+   249	dark slate blue                   214761
+   250	dark tan                          af884a
+   251	dark taupe                        7f684e
+   252	dark teal                         014d4e
+   253	dark turquoise                    045c5a
+   254	dark violet                       34013f
+   255	dark yellow                       d5b60a
+   256	dark yellow green                 728f02
+   257	deep aqua                         08787f
+   258	deep blue                         040273
+   259	deep brown                        410200
+   260	deep green                        02590f
+   261	deep lavender                     8d5eb7
+   262	deep lilac                        966ebd
+   263	deep magenta                      a0025c
+   264	deep orange                       dc4d01
+   265	deep pink                         cb0162
+   266	deep purple                       36013f
+   267	deep red                          9a0200
+   268	deep rose                         c74767
+   269	deep sea blue                     015482
+   270	deep sky blue                     0d75f8
+   271	deep teal                         00555a
+   272	deep turquoise                    017374
+   273	deep violet                       490648
+   274	denim                             3b638c
+   275	denim blue                        3b5b92
+   276	desert                            ccad60
+   277	diarrhea                          9f8303
+   278	dirt                              8a6e45
+   279	dirt brown                        836539
+   280	dirty blue                        3f829d
+   281	dirty green                       667e2c
+   282	dirty orange                      c87606
+   283	dirty pink                        ca7b80
+   284	dirty purple                      734a65
+   285	dirty yellow                      cdc50a
+   286	dodger blue                       3e82fc
+   287	drab                              828344
+   288	drab green                        749551
+   289	dried blood                       4b0101
+   290	duck egg blue                     c3fbf4
+   291	dull blue                         49759c
+   292	dull brown                        876e4b
+   293	dull green                        74a662
+   294	dull orange                       d8863b
+   295	dull pink                         d5869d
+   296	dull purple                       84597e
+   297	dull red                          bb3f3f
+   298	dull teal                         5f9e8f
+   299	dull yellow                       eedc5b
+   300	dusk                              4e5481
+   301	dusk blue                         26538d
+   302	dusky blue                        475f94
+   303	dusky pink                        cc7a8b
+   304	dusky purple                      895b7b
+   305	dusky rose                        ba6873
+   306	dust                              b2996e
+   307	dusty blue                        5a86ad
+   308	dusty green                       76a973
+   309	dusty lavender                    ac86a8
+   310	dusty orange                      f0833a
+   311	dusty pink                        d58a94
+   312	dusty purple                      825f87
+   313	dusty red                         b9484e
+   314	dusty rose                        c0737a
+   315	dusty teal                        4c9085
+   316	earth                             a2653e
+   317	easter green                      8cfd7e
+   318	easter purple                     c071fe
+   319	ecru                              feffca
+   320	eggplant                          380835
+   321	eggplant purple                   430541
+   322	eggshell blue                     c4fff7
+   323	egg shell                         fffcc4
+   324	eggshell                          ffffd4
+   325	electric blue                     0652ff
+   326	electric green                    21fc0d
+   327	electric lime                     a8ff04
+   328	electric pink                     ff0490
+   329	electric purple                   aa23ff
+   330	emerald                           01a049
+   331	emerald green                     028f1e
+   332	evergreen                         05472a
+   333	faded blue                        658cbb
+   334	faded green                       7bb274
+   335	faded orange                      f0944d
+   336	faded pink                        de9dac
+   337	faded purple                      916e99
+   338	faded red                         d3494e
+   339	faded yellow                      feff7f
+   340	fawn                              cfaf7b
+   341	fern                              63a950
+   342	fern green                        548d44
+   343	fire engine red                   fe0002
+   344	flat blue                         3c73a8
+   345	flat green                        699d4c
+   346	fluorescent green                 08ff08
+   347	fluro green                       0aff02
+   348	foam green                        90fda9
+   349	forest                            0b5509
+   350	forest green                      06470c
+   351	forrest green                     154406
+   352	french blue                       436bad
+   353	fresh green                       69d84f
+   354	frog green                        58bc08
+   355	fuchsia                           ed0dd9
+   356	gold                              dbb40c
+   357	golden brown                      b27a01
+   358	golden                            f5bf03
+   359	golden rod                        f9bc08
+   360	goldenrod                         fac205
+   361	golden yellow                     fec615
+   362	grape                             6c3461
+   363	grapefruit                        fd5956
+   364	grape purple                      5d1451
+   365	grass                             5cac2d
+   366	grass green                       3f9b0b
+   367	grassy green                      419c03
+   368	green                             15b01a
+   369	green apple                       5edc1f
+   370	green/blue                        01c08d
+   371	green blue                        06b48b
+   372	greenblue                         23c48b
+   373	green brown                       544e03
+   374	green grey                        77926f
+   375	greenish                          40a368
+   376	greenish beige                    c9d179
+   377	greenish blue                     0b8b87
+   378	greenish brown                    696112
+   379	greenish cyan                     2afeb7
+   380	greenish grey                     96ae8d
+   381	greenish tan                      bccb7a
+   382	greenish teal                     32bf84
+   383	greenish turquoise                00fbb0
+   384	greenish yellow                   cdfd02
+   385	green teal                        0cb577
+   386	greeny blue                       42b395
+   387	greeny brown                      696006
+   388	green/yellow                      b5ce08
+   389	green yellow                      c9ff27
+   390	greeny grey                       7ea07a
+   391	greeny yellow                     c6f808
+   392	grey                              929591
+   393	grey/blue                         647d8e
+   394	grey blue                         6b8ba4
+   395	greyblue                          77a1b5
+   396	grey brown                        7f7053
+   397	grey green                        789b73
+   398	grey/green                        86a17d
+   399	greyish                           a8a495
+   400	greyish blue                      5e819d
+   401	greyish brown                     7a6a4f
+   402	greyish green                     82a67d
+   403	greyish pink                      c88d94
+   404	greyish purple                    887191
+   405	greyish teal                      719f91
+   406	grey pink                         c3909b
+   407	grey purple                       826d8c
+   408	grey teal                         5e9b8a
+   409	gross green                       a0bf16
+   410	gunmetal                          536267
+   411	hazel                             8e7618
+   412	heather                           a484ac
+   413	heliotrope                        d94ff5
+   414	highlighter green                 1bfc06
+   415	hospital green                    9be5aa
+   416	hot green                         25ff29
+   417	hot magenta                       f504c9
+   418	hot pink                          ff028d
+   419	hot purple                        cb00f5
+   420	hunter green                      0b4008
+   421	ice blue                          d7fffe
+   422	ice                               d6fffa
+   423	icky green                        8fae22
+   424	indian red                        850e04
+   425	indigo                            380282
+   426	indigo blue                       3a18b1
+   427	iris                              6258c4
+   428	irish green                       019529
+   429	ivory                             ffffcb
+   430	jade                              1fa774
+   431	jade green                        2baf6a
+   432	jungle green                      048243
+   433	kelley green                      009337
+   434	kelly green                       02ab2e
+   435	kermit green                      5cb200
+   436	key lime                          aeff6e
+   437	khaki                             aaa662
+   438	khaki green                       728639
+   439	kiwi                              9cef43
+   440	kiwi green                        8ee53f
+   441	lavender blue                     8b88f8
+   442	lavender                          c79fef
+   443	lavender pink                     dd85d7
+   444	lawn green                        4da409
+   445	leaf                              71aa34
+   446	leaf green                        5ca904
+   447	leafy green                       51b73b
+   448	leather                           ac7434
+   449	lemon                             fdff52
+   450	lemon green                       adf802
+   451	lemon lime                        bffe28
+   452	lemon yellow                      fdff38
+   453	lichen                            8fb67b
+   454	light aqua                        8cffdb
+   455	light aquamarine                  7bfdc7
+   456	light beige                       fffeb6
+   457	lightblue                         7bc8f6
+   458	light blue                        95d0fc
+   459	light blue green                  7efbb3
+   460	light blue grey                   b7c9e2
+   461	light bluish green                76fda8
+   462	light bright green                53fe5c
+   463	light brown                       ad8150
+   464	light burgundy                    a8415b
+   465	light cyan                        acfffc
+   466	light eggplant                    894585
+   467	lighter green                     75fd63
+   468	lighter purple                    a55af4
+   469	light forest green                4f9153
+   470	light gold                        fddc5c
+   471	light grass green                 9af764
+   472	lightgreen                        76ff7b
+   473	light green                       96f97b
+   474	light green blue                  56fca2
+   475	light greenish blue               63f7b4
+   476	light grey blue                   9dbcd4
+   477	light grey                        d8dcd6
+   478	light grey green                  b7e1a1
+   479	light indigo                      6d5acf
+   480	lightish blue                     3d7afd
+   481	lightish green                    61e160
+   482	lightish purple                   a552e6
+   483	lightish red                      fe2f4a
+   484	light khaki                       e6f2a2
+   485	light lavendar                    efc0fe
+   486	light lavender                    dfc5fe
+   487	light light blue                  cafffb
+   488	light light green                 c8ffb0
+   489	light lilac                       edc8ff
+   490	light lime                        aefd6c
+   491	light lime green                  b9ff66
+   492	light magenta                     fa5ff7
+   493	light maroon                      a24857
+   494	light mauve                       c292a1
+   495	light mint                        b6ffbb
+   496	light mint green                  a6fbb2
+   497	light moss green                  a6c875
+   498	light mustard                     f7d560
+   499	light navy                        155084
+   500	light navy blue                   2e5a88
+   501	light neon green                  4efd54
+   502	light olive                       acbf69
+   503	light olive green                 a4be5c
+   504	light orange                      fdaa48
+   505	light pastel green                b2fba5
+   506	light peach                       ffd8b1
+   507	light pea green                   c4fe82
+   508	light periwinkle                  c1c6fc
+   509	light pink                        ffd1df
+   510	light plum                        9d5783
+   511	light purple                      bf77f6
+   512	light red                         ff474c
+   513	light rose                        ffc5cb
+   514	light royal blue                  3a2efe
+   515	light sage                        bcecac
+   516	light salmon                      fea993
+   517	light seafoam                     a0febf
+   518	light seafoam green               a7ffb5
+   519	light sea green                   98f6b0
+   520	light sky blue                    c6fcff
+   521	light tan                         fbeeac
+   522	light teal                        90e4c1
+   523	light turquoise                   7ef4cc
+   524	light urple                       b36ff6
+   525	light violet                      d6b4fc
+   526	light yellow                      fffe7a
+   527	light yellow green                ccfd7f
+   528	light yellowish green             c2ff89
+   529	lilac                             cea2fd
+   530	liliac                            c48efd
+   531	lime                              aaff32
+   532	lime green                        89fe05
+   533	lime yellow                       d0fe1d
+   534	lipstick                          d5174e
+   535	lipstick red                      c0022f
+   536	macaroni and cheese               efb435
+   537	magenta                           c20078
+   538	mahogany                          4a0100
+   539	maize                             f4d054
+   540	mango                             ffa62b
+   541	manilla                           fffa86
+   542	marigold                          fcc006
+   543	marine                            042e60
+   544	marine blue                       01386a
+   545	maroon                            650021
+   546	mauve                             ae7181
+   547	medium blue                       2c6fbb
+   548	medium brown                      7f5112
+   549	medium green                      39ad48
+   550	medium grey                       7d7f7c
+   551	medium pink                       f36196
+   552	medium purple                     9e43a2
+   553	melon                             ff7855
+   554	merlot                            730039
+   555	metallic blue                     4f738e
+   556	mid blue                          276ab3
+   557	mid green                         50a747
+   558	midnight                          03012d
+   559	midnight blue                     020035
+   560	midnight purple                   280137
+   561	military green                    667c3e
+   562	milk chocolate                    7f4e1e
+   563	mint                              9ffeb0
+   564	mint green                        8fff9f
+   565	minty green                       0bf77d
+   566	mocha                             9d7651
+   567	moss                              769958
+   568	moss green                        658b38
+   569	mossy green                       638b27
+   570	mud                               735c12
+   571	mud brown                         60460f
+   572	muddy brown                       886806
+   573	muddy green                       657432
+   574	muddy yellow                      bfac05
+   575	mud green                         606602
+   576	mulberry                          920a4e
+   577	murky green                       6c7a0e
+   578	mushroom                          ba9e88
+   579	mustard brown                     ac7e04
+   580	mustard                           ceb301
+   581	mustard green                     a8b504
+   582	mustard yellow                    d2bd0a
+   583	muted blue                        3b719f
+   584	muted green                       5fa052
+   585	muted pink                        d1768f
+   586	muted purple                      805b87
+   587	nasty green                       70b23f
+   588	navy                              01153e
+   589	navy blue                         001146
+   590	navy green                        35530a
+   591	neon blue                         04d9ff
+   592	neon green                        0cff0c
+   593	neon pink                         fe019a
+   594	neon purple                       bc13fe
+   595	neon red                          ff073a
+   596	neon yellow                       cfff04
+   597	nice blue                         107ab0
+   598	night blue                        040348
+   599	ocean                             017b92
+   600	ocean blue                        03719c
+   601	ocean green                       3d9973
+   602	ocher                             bf9b0c
+   603	ochre                             bf9005
+   604	ocre                              c69c04
+   605	off blue                          5684ae
+   606	off green                         6ba353
+   607	off white                         ffffe4
+   608	off yellow                        f1f33f
+   609	old pink                          c77986
+   610	old rose                          c87f89
+   611	olive                             6e750e
+   612	olive brown                       645403
+   613	olive drab                        6f7632
+   614	olive green                       677a04
+   615	olive yellow                      c2b709
+   616	orange brown                      be6400
+   617	orange                            f97306
+   618	orangeish                         fd8d49
+   619	orange pink                       ff6f52
+   620	orange red                        fd411e
+   621	orangered                         fe420f
+   622	orangey brown                     b16002
+   623	orange yellow                     ffad01
+   624	orangey red                       fa4224
+   625	orangey yellow                    fdb915
+   626	orangish brown                    b25f03
+   627	orangish                          fc824a
+   628	orangish red                      f43605
+   629	orchid                            c875c4
+   630	pale aqua                         b8ffeb
+   631	pale blue                         d0fefe
+   632	pale brown                        b1916e
+   633	pale cyan                         b7fffa
+   634	pale                              fff9d0
+   635	pale gold                         fdde6c
+   636	pale green                        c7fdb5
+   637	pale grey                         fdfdfe
+   638	pale lavender                     eecffe
+   639	pale light green                  b1fc99
+   640	pale lilac                        e4cbff
+   641	pale lime                         befd73
+   642	pale lime green                   b1ff65
+   643	pale magenta                      d767ad
+   644	pale mauve                        fed0fc
+   645	pale olive                        b9cc81
+   646	pale olive green                  b1d27b
+   647	pale orange                       ffa756
+   648	pale peach                        ffe5ad
+   649	pale pink                         ffcfdc
+   650	pale purple                       b790d4
+   651	pale red                          d9544d
+   652	pale rose                         fdc1c5
+   653	pale salmon                       ffb19a
+   654	pale sky blue                     bdf6fe
+   655	pale teal                         82cbb2
+   656	pale turquoise                    a5fbd5
+   657	pale violet                       ceaefa
+   658	pale yellow                       ffff84
+   659	parchment                         fefcaf
+   660	pastel blue                       a2bffe
+   661	pastel green                      b0ff9d
+   662	pastel orange                     ff964f
+   663	pastel pink                       ffbacd
+   664	pastel purple                     caa0ff
+   665	pastel red                        db5856
+   666	pastel yellow                     fffe71
+   667	pea                               a4bf20
+   668	peach                             ffb07c
+   669	peachy pink                       ff9a8a
+   670	peacock blue                      016795
+   671	pea green                         8eab12
+   672	pear                              cbf85f
+   673	pea soup                          929901
+   674	pea soup green                    94a617
+   675	periwinkle                        8e82fe
+   676	periwinkle blue                   8f99fb
+   677	perrywinkle                       8f8ce7
+   678	petrol                            005f6a
+   679	pig pink                          e78ea5
+   680	pine                              2b5d34
+   681	pine green                        0a481e
+   682	pink                              ff81c0
+   683	pinkish brown                     b17261
+   684	pinkish                           d46a7e
+   685	pinkish grey                      c8aca9
+   686	pinkish orange                    ff724c
+   687	pinkish purple                    d648d7
+   688	pinkish red                       f10c45
+   689	pinkish tan                       d99b82
+   690	pink purple                       db4bda
+   691	pink/purple                       ef1de7
+   692	pink red                          f5054f
+   693	pinky                             fc86aa
+   694	pinky purple                      c94cbe
+   695	pinky red                         fc2647
+   696	piss yellow                       ddd618
+   697	pistachio                         c0fa8b
+   698	plum                              580f41
+   699	plum purple                       4e0550
+   700	poison green                      40fd14
+   701	poo                               8f7303
+   702	poo brown                         885f01
+   703	poop                              7f5e00
+   704	poop brown                        7a5901
+   705	poop green                        6f7c00
+   706	powder blue                       b1d1fc
+   707	powder pink                       ffb2d0
+   708	primary blue                      0804f9
+   709	prussian blue                     004577
+   710	puce                              a57e52
+   711	puke                              a5a502
+   712	puke brown                        947706
+   713	puke green                        9aae07
+   714	puke yellow                       c2be0e
+   715	pumpkin                           e17701
+   716	pumpkin orange                    fb7d07
+   717	pure blue                         0203e2
+   718	purple                            7e1e9c
+   719	purple/blue                       5d21d0
+   720	purple blue                       632de9
+   721	purple brown                      673a3f
+   722	purple grey                       866f85
+   723	purpleish                         98568d
+   724	purpleish blue                    6140ef
+   725	purpleish pink                    df4ec8
+   726	purple/pink                       d725de
+   727	purple pink                       e03fd8
+   728	purple red                        990147
+   729	purpley                           8756e4
+   730	purpley blue                      5f34e7
+   731	purpley grey                      947e94
+   732	purpley pink                      c83cb9
+   733	purplish                          94568c
+   734	purplish blue                     601ef9
+   735	purplish brown                    6b4247
+   736	purplish grey                     7a687f
+   737	purplish pink                     ce5dae
+   738	purplish red                      b0054b
+   739	purply                            983fb2
+   740	purply blue                       661aee
+   741	purply pink                       f075e6
+   742	putty                             beae8a
+   743	racing green                      014600
+   744	radioactive green                 2cfa1f
+   745	raspberry                         b00149
+   746	raw sienna                        9a6200
+   747	raw umber                         a75e09
+   748	really light blue                 d4ffff
+   749	red brown                         8b2e16
+   750	reddish brown                     7f2b0a
+   751	reddish                           c44240
+   752	reddish grey                      997570
+   753	reddish orange                    f8481c
+   754	reddish pink                      fe2c54
+   755	reddish purple                    910951
+   756	reddy brown                       6e1005
+   757	red                               e50000
+   758	red orange                        fd3c06
+   759	red pink                          fa2a55
+   760	red purple                        820747
+   761	red violet                        9e0168
+   762	red wine                          8c0034
+   763	rich blue                         021bf9
+   764	rich purple                       720058
+   765	robin egg blue                    8af1fe
+   766	robin's egg                       6dedfd
+   767	robin's egg blue                  98eff9
+   768	rosa                              fe86a4
+   769	rose                              cf6275
+   770	rose pink                         f7879a
+   771	rose red                          be013c
+   772	rosy pink                         f6688e
+   773	rouge                             ab1239
+   774	royal                             0c1793
+   775	royal blue                        0504aa
+   776	royal purple                      4b006e
+   777	ruby                              ca0147
+   778	russet                            a13905
+   779	rust                              a83c09
+   780	rust brown                        8b3103
+   781	rust orange                       c45508
+   782	rust red                          aa2704
+   783	rusty orange                      cd5909
+   784	rusty red                         af2f0d
+   785	saffron                           feb209
+   786	sage                              87ae73
+   787	sage green                        88b378
+   788	salmon                            ff796c
+   789	salmon pink                       fe7b7c
+   790	sand brown                        cba560
+   791	sand                              e2ca76
+   792	sandstone                         c9ae74
+   793	sandy brown                       c4a661
+   794	sand yellow                       fce166
+   795	sandy                             f1da7a
+   796	sandy yellow                      fdee73
+   797	sap green                         5c8b15
+   798	sapphire                          2138ab
+   799	scarlet                           be0119
+   800	sea                               3c9992
+   801	sea blue                          047495
+   802	seafoam                           80f9ad
+   803	seafoam blue                      78d1b6
+   804	seafoam green                     7af9ab
+   805	sea green                         53fca1
+   806	seaweed                           18d17b
+   807	seaweed green                     35ad6b
+   808	sepia                             985e2b
+   809	shamrock                          01b44c
+   810	shamrock green                    02c14d
+   811	shit                              7f5f00
+   812	shit brown                        7b5804
+   813	shit green                        758000
+   814	shocking pink                     fe02a2
+   815	sick green                        9db92c
+   816	sickly green                      94b21c
+   817	sickly yellow                     d0e429
+   818	sienna                            a9561e
+   819	silver                            c5c9c7
+   820	sky                               82cafc
+   821	sky blue                          75bbfd
+   822	slate                             516572
+   823	slate blue                        5b7c99
+   824	slate green                       658d6d
+   825	slate grey                        59656d
+   826	slime green                       99cc04
+   827	snot                              acbb0d
+   828	snot green                        9dc100
+   829	soft blue                         6488ea
+   830	soft green                        6fc276
+   831	soft pink                         fdb0c0
+   832	soft purple                       a66fb5
+   833	spearmint                         1ef876
+   834	spring green                      a9f971
+   835	spruce                            0a5f38
+   836	squash                            f2ab15
+   837	steel                             738595
+   838	steel blue                        5a7d9a
+   839	steel grey                        6f828a
+   840	stone                             ada587
+   841	stormy blue                       507b9c
+   842	strawberry                        fb2943
+   843	straw                             fcf679
+   844	strong blue                       0c06f7
+   845	strong pink                       ff0789
+   846	sunflower                         ffc512
+   847	sunflower yellow                  ffda03
+   848	sunny yellow                      fff917
+   849	sunshine yellow                   fffd37
+   850	sun yellow                        ffdf22
+   851	swamp                             698339
+   852	swamp green                       748500
+   853	tan brown                         ab7e4c
+   854	tan                               d1b26f
+   855	tangerine                         ff9408
+   856	tan green                         a9be70
+   857	taupe                             b9a281
+   858	tea                               65ab7c
+   859	tea green                         bdf8a3
+   860	teal                              029386
+   861	teal blue                         01889f
+   862	teal green                        25a36f
+   863	tealish                           24bca8
+   864	tealish green                     0cdc73
+   865	terracota                         cb6843
+   866	terra cotta                       c9643b
+   867	terracotta                        ca6641
+   868	tiffany blue                      7bf2da
+   869	tomato                            ef4026
+   870	tomato red                        ec2d01
+   871	topaz                             13bbaf
+   872	toupe                             c7ac7d
+   873	toxic green                       61de2a
+   874	tree green                        2a7e19
+   875	true blue                         010fcc
+   876	true green                        089404
+   877	turquoise                         06c2ac
+   878	turquoise blue                    06b1c4
+   879	turquoise green                   04f489
+   880	turtle green                      75b84f
+   881	twilight                          4e518b
+   882	twilight blue                     0a437a
+   883	ugly blue                         31668a
+   884	ugly brown                        7d7103
+   885	ugly green                        7a9703
+   886	ugly pink                         cd7584
+   887	ugly purple                       a442a0
+   888	ugly yellow                       d0c101
+   889	ultramarine                       2000b1
+   890	ultramarine blue                  1805db
+   891	umber                             b26400
+   892	velvet                            750851
+   893	vermillion                        f4320c
+   894	very dark blue                    000133
+   895	very dark brown                   1d0200
+   896	very dark green                   062e03
+   897	very dark purple                  2a0134
+   898	very light blue                   d5ffff
+   899	very light brown                  d3b683
+   900	very light green                  d1ffbd
+   901	very light pink                   fff4f2
+   902	very light purple                 f6cefc
+   903	very pale blue                    d6fffe
+   904	very pale green                   cffdbc
+   905	vibrant blue                      0339f8
+   906	vibrant green                     0add08
+   907	vibrant purple                    ad03de
+   908	violet                            9a0eea
+   909	violet blue                       510ac9
+   910	violet pink                       fb5ffc
+   911	violet red                        a50055
+   912	viridian                          1e9167
+   913	vivid blue                        152eff
+   914	vivid green                       2fef10
+   915	vivid purple                      9900fa
+   916	vomit                             a2a415
+   917	vomit green                       89a203
+   918	vomit yellow                      c7c10c
+   919	warm blue                         4b57db
+   920	warm brown                        964e02
+   921	warm grey                         978a84
+   922	warm pink                         fb5581
+   923	warm purple                       952e8f
+   924	washed out green                  bcf5a6
+   925	water blue                        0e87cc
+   926	watermelon                        fd4659
+   927	weird green                       3ae57f
+   928	wheat                             fbdd7e
+   929	white                             ffffff
+   930	windows blue                      3778bf
+   931	wine                              80013f
+   932	wine red                          7b0323
+   933	wintergreen                       20f986
+   934	wisteria                          a87dc2
+   935	yellow brown                      b79400
+   936	yellow                            ffff14
+   937	yellowgreen                       bbf90f
+   938	yellow green                      c0fb2d
+   939	yellow/green                      c8fd3d
+   940	yellowish brown                   9b7a01
+   941	yellowish                         faee66
+   942	yellowish green                   b0dd16
+   943	yellowish orange                  ffab0f
+   944	yellowish tan                     fcfc81
+   945	yellow ochre                      cb9d06
+   946	yellow orange                     fcb001
+   947	yellow tan                        ffe36e
+   948	yellowy brown                     ae8b0c
+   949	yellowy green                     bff128
