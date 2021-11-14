@@ -1,0 +1,33 @@
+.
+|-- ABOUT
+`-- US-ASCII
+    |-- blog
+    |-- comestibles
+    |   |-- recipes
+    |   `-- various
+    |-- contact
+    |-- films
+    |-- geekish
+    |   |-- cheats
+    |   |-- nethack
+    |   `-- various
+    |-- guides
+    |-- irc server
+    |-- journals
+    |-- links
+    |-- music
+    |-- news
+    |   |-- announcements
+    |   |-- archieves
+    |   |   `-- 2020 - news archive
+    |   |-- miscellaneous
+    |   |-- security
+    |   |-- software
+    |   `-- technology
+    |-- reads
+    |-- reviews
+    |-- rss feeds
+    |-- serendipity
+    `-- websites
+
+31 directories, 0 files
