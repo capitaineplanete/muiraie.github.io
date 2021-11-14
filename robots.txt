@@ -1,2 +1,5 @@
 User-agent: *
 Disallow: /
+
+# Don't visit this page or you may end up banned.
+Disallow: /humans.txt

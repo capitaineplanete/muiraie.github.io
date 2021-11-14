@@ -1,14 +1,14 @@
 about this site
+---------------
 
-This site is primarily a repository of plain text files <a href="https://en.wikipedia.org/wiki/ASCII">(US-ASCII)</a> that I 
+This site is primarily a repository of plain text files US-ASCII that I 
 have either written, collected or converted. They are mostly set at a fixed 
 column width and may not play nicely with your modern browser or smartphone. All 
 files with a .txt suffix are US-ASCII. While the site is designed mainly for 
 my own use, I am happy to share it. Please feel free to peruse and/or download 
 anything you find of interest.
 
-The site is automagically generated in html/css by tree-1.8.0 and is hosted by 
-the <a href="https://sdf.org">SDF Public Access UNIX System</a>
+The site is automagically generated in html/css by tree-1.8.0.
 Please note that things around here tend to get added, removed, renamed and/or 
 relocated not infrequently so directly linking to an individual file is probably 
 not a good idea. Best to download a copy for yourself or request a 
@@ -17,15 +17,18 @@ permanent(ish) link
 And any file with my email address at the bottom is something I have scribbled. 
 Therefore, if you have questions or comments, you can contact me at:
 
-golfers.chiller.0h@icloud.com
+`golfers.chiller.0h@icloud.com`
 
-fingerprint:
-666A 2570 DB50 A0BE CCE4  
-9BA4 5DA9 2175 3C98 0912
 
-#######
-# FAQ #
-#######
+fingerprint
+-----------
+
+`666A 2570 DB50 A0BE CCE4  
+ 9BA4 5DA9 2175 3C98 0912`
+
+
+FAQ
+---
 
 Q: What is this website about?
 
@@ -47,4 +50,4 @@ unnecessary for a static site.
 Q: What are you making this site with?
 
 A: Tree and vim. Tree is a recursive directory listing program that produces a depth-indented 
-listing of files and output is to tty. However, with a bit of tweaking you can produce HTML pages with it.
+listing of files and outputs it to tty. However, with a bit of tweaking you can produce HTML pages with it.

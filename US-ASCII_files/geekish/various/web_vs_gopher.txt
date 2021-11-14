@@ -1,0 +1,24 @@
+THE WEB VS GOPHER
+
+The title of this piece is a farce. That battle was lost decades ago. The web 
+little notes nor cares that gopher still exists. It was finished once it became 
+apparent that gopher couldn't be monetized (or weaponized). But this is not 
+necessarily a bad thing.
+
+The web admittedly is a mess. This is apparent in that a company could build its 
+entire business model on simply being able to search and index said mess. Yet 
+the web offers much. It entertains, informs and amuses. It offers a vast array 
+of services and opportunities. It offers socialization with family, friends and 
+like minds. But it also harbors those that would thieve, deceive or do harm. It 
+is plastered with advertising at every turn. Someone is always trying to pick 
+your pocket or pick your brain. In essence, it is a near perfect mirror of human 
+society.
+
+If it mirrors anything, gopher is a library. Gopher was designed by academics as 
+a distributed hierarchical means of storing, indexing and searching plain text. 
+It is a quiet place with few distractions (shhhh). It has the functional 
+equivalents of card catalogues, shelves, stacks, the Dewey Decimal System, 
+periodicals, journals, books and archives. And just as real libraries persist in 
+the modern world in spite of the web, so does gopher. Both have something to 
+offer the web can't provide: singular simplicity of purpose...
+
