@@ -5,7 +5,8 @@ date: Jan 15, 2003
 geometry: "left=3cm,right=3cm,top=2cm,bottom=2cm"
 ---
 
-# Cleaning Your Silver
+Cleaning Your Silver
+--------------------
 
 Have you ever polished your valuable silver to get rid of that ugly
 tarnish? Me, too. However, I just learned from a retired Chem Teacher

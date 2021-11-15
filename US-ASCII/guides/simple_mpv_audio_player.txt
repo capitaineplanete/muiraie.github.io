@@ -1,0 +1,31 @@
+I recently ported my music playlist to a proprietery cloud service and discovered how 
+broken shuffle is and the ads were getting on my nerves so I did a lil thing to help 
+with that. 
+
+Prerequisites: 
+* MPV: https://github.com/mpv-player/mpv
+
+$ mpv --no-video --term-osd-bar --no-resume-playback  --term-title='file: \
+${media-title}' --term-playing-msg='file: ${media-title}' \
+--shuffle 'https://youtube.com/playlist?list='
+
+If you wish, you could use a textfile with youtube links and play it with '--playlist'  
+or pass a cookie for private playlists with '--ytdl-raw-options="cookies=${cookies_file}"'
+
+i.e. to stream from a textfile you can do:
+$ mpv --no-video --term-osd-bar --no-resume-playback  \ 
+--term-title='file: ${media-title}' --term-playing-msg='file: ${media-title}' \ 
+--shuffle --playlist=lamusique.txt
+
+If you decided to use the latter approach you could benefit from the following: 
+
+to quickly list all videos in a playlist:
+$ youtube-dl -e -j \
+--flat-playlist 'https://youtube.com/playlist?list=' \
+| cut -d " " -f 8 | awk -F '"' '{print $2}' \
+| sed 's_^_https://youtube.com/watch?v=_' 1>playlist.txt 2>/dev/null
+
+This will echo all stdout to playlist.txt. I'm no awk ninja but if the file has gaps 
+remove every other line with this: $ awk 'NR % 2 == 0' playlist.txt > lamusique.txt
+
+muiraie
