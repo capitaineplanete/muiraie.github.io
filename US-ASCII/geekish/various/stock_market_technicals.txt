@@ -15,7 +15,7 @@ RSI (is it overbought or oversold?)
 Patterns (do you notice any bullish or bearish patterns?)
 Fundamentals – can be found at finviz.com 1.PricetoEarningsRatio(P/E)
 + Use within same sector to compare companies, compare it to the average PE of the sector
-+ “What you pay for 1$ of company earnings”
++ "What you pay for 1$ of company earnings"
 + Want the PE BELOW sector average.
 Price to Book Ratio(P/B)
 + If the PB is less or equal to 1 (1>x), the stock is trading at/below the value of its assets.
@@ -27,14 +27,14 @@ Price to Earnings to Growth(PEG)
 + If PEG is less than or equal to 1 (1>x), company is undervalued.
 + If PEG is greater than or equal to 1 (1<x), the company might be overvalued.
 Return of Equity (ROE)
-+ “how well a company generates earnings”
++ "how well a company generates earnings"
 + 17-20% = very good
 + 20-25% = excellent
 + 25%+ = superior
 Debt to Equity Ratio
 + Try to avoid companies that have a ratio greater than 2.
 Current Ratio
-+ “the ability to pay short term and long term debt”
++ "the ability to pay short term and long term debt"
 + x>1 = liability > assets
 + x<1 = liability < assets
 + x>3 = holding back

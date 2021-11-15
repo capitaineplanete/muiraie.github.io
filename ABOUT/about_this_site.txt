@@ -43,7 +43,7 @@ A: I value the simplicity of what the web was and could continue to be.
 
 Q: Why is there no SSL/TLS version of the site?
 
-A: I may introduce secure connectivity as an option in the future, but it’s largely 
+A: I may introduce secure connectivity as an option in the future, but it's largely 
 unnecessary for a static site.
 
 

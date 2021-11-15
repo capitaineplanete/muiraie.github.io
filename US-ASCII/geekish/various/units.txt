@@ -2902,7 +2902,7 @@ alcoholunituk            8 g   / ethanoldensity
 alcoholunitau           10 g   / ethanoldensity
 
 # Example: for 12% ABV (alcohol by volume)
-# alcoholunitus / 12% = 147.8 mL, close to the “standard” serving of 150 mL.
+# alcoholunitus / 12% = 147.8 mL, close to the "standard" serving of 150 mL.
 
 
 # Coffee
@@ -5053,7 +5053,7 @@ yuan                    chinayuan
 !utf8
 icelandkróna            icelandkrona
 polandzłoty             polandzloty
-tongapa’anga            tongapa'anga
+tongapa'anga            tongapa'anga
 #venezuelabolívar        venezuelabolivar
 vietnamđồng             vietnamdong
 mongoliatögrög          mongoliatugrik

@@ -41,9 +41,9 @@ Signing a Key
 Encrypting	
 ----------
 	gpg -er Recipient File				Produces File.gpg an encrypted version of File, which can be decrypted by Recipient
-	echo “Text” | gpg -ear Recipient		Produces an encrypted version of Text which can be decrypted by Recipient and prints 
+	echo "Text" | gpg -ear Recipient		Produces an encrypted version of Text which can be decrypted by Recipient and prints 
 							the result to the terminal
-	echo “Text” | gpg -ear Recipient > OutFile	Produces an encrypted version of Text which can be decrypted by Recipient and writes 
+	echo "Text" | gpg -ear Recipient > OutFile	Produces an encrypted version of Text which can be decrypted by Recipient and writes 
 							the result to OutFile
 	cat InFile | gpg -ear Recipient			Produces an encrypted version of the text contained in InFile which can be decrypted 
 							by Recipient and prints the result to the terminal
@@ -52,21 +52,21 @@ Encrypting
 Signing
 -------	
 	gpg -s File				Produces File.gpg, a signed version of File, which can be verified
-	echo “Text” | gpg -as			Produces a signed version of Text and prints the result to the terminal
-	echo “Text” | gpg -s > OutFile		Produces a signed version of Text and writes the result to OutFile
+	echo "Text" | gpg -as			Produces a signed version of Text and prints the result to the terminal
+	echo "Text" | gpg -s > OutFile		Produces a signed version of Text and writes the result to OutFile
 	cat InFile | gpg -as			Produces a signed version of the text in InFile and prints the result to the terminal
 	cat InFile | gpg -s > OutFile		Produces a signed version of the text in InFile and writes the result to OutFile
 	gpg --detach-sign File			Produces a separate signature, File.sig, which can be used to verify File
-	echo “Text” | gpg --clearsign	
+	echo "Text" | gpg --clearsign	
 	cat InFile | gpg --clearsign	
 
 Encrypting and Signing
 ----------------------
 	gpg -esr Recipient File					Produces File.gpg, an encrypted and signed version of File, 
 								which can be decrypted and verified by Recipient
-	echo “Text” | gpg -esar Recipient File			Produces an encrypted and signed version of Text which can be decrypted 
+	echo "Text" | gpg -esar Recipient File			Produces an encrypted and signed version of Text which can be decrypted 
 								and verified by Recipient and prints the result to the terminal
-	echo “Text” | gpg -esar Recipient File > OutFile	Produces an encrypted and signed version of Text which can be decrypted 
+	echo "Text" | gpg -esar Recipient File > OutFile	Produces an encrypted and signed version of Text which can be decrypted 
 								and verified by Recipient and writes the result to OutFile
 	cat InFile | gpg -esar Recipient			Produces an encrypted and signed version of the text in InFile which can 
 								be decrypted and verified by Recipient and prints the result to the terminal
@@ -76,8 +76,8 @@ Encrypting and Signing
 Decrypting and Verifying
 ------------------------	
 	gpg -d InFile > OutFile			Decrypt and/or verify File
- 	echo “Cipher Text” | gpg -d		Decrypt and/or verify Cipher Text
-	echo “Cipher Text” | gpg -d > OutFile	Decrypt and/or verify Cipher Text and write the result to OutFile
+ 	echo "Cipher Text" | gpg -d		Decrypt and/or verify Cipher Text
+	echo "Cipher Text" | gpg -d > OutFile	Decrypt and/or verify Cipher Text and write the result to OutFile
 	cat InFile | gpg -d			Decrypt and/or verify the contents of File
 	cat InFile | gpg -d > OutFile		Decrypt and/or verify the contents of File and write the result to OutFile
 	
@@ -85,8 +85,8 @@ Symmetric Encryption
 --------------------
 	gpg -c File			Create a file symmetrically encrypted with a passphrase
 	gpg -ca File			Create a file symmetrically encrypted with a passphrase readable as plain text
-	echo “Text” | gpg -ca		Symmetrically encrypt Test with a passphrase and output the result to the terminal
-	echo “Text” | gpg -c > OutFile	Symmetrically encrypt Test with a passphrase and write the result to OutFile
+	echo "Text" | gpg -ca		Symmetrically encrypt Test with a passphrase and output the result to the terminal
+	echo "Text" | gpg -c > OutFile	Symmetrically encrypt Test with a passphrase and write the result to OutFile
 	cat InFile | gpg -ca		Symmetrically encrypt the text in InFile and output the result to the terminal
 	cat InFile | gpg -c > OutFile	Symmetrically encrypt the text in InFile and write the result to OutFile
  
