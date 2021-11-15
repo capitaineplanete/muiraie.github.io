@@ -1,0 +1,94 @@
+/** https://thelounge.chat/docs/guides/custom-css **/
+
+/** 
+ TheLounge mobile-oriented CSS  
+ Written on 07.11.21 by muiraie
+ **/
+
+/** Bigger custom CSS field **/
+
+textarea#user-specified-css-input {
+    height: 600px;
+}
+
+
+/** Display action messages in italics **/
+
+#chat .msg[data-type="action"] .from::before,
+#chat .msg[data-type="action"] .from,
+#chat .msg[data-type="action"] .content,
+#chat .msg[data-type="action"] .user {
+    font-style: italic;
+}
+
+
+/* For mobile */
+
+@media only screen and (max-width: 768px) {
+    /** Wrap nicks with chevrons **/
+    #chat .msg[data-type="message"] .from .user::before {
+        content: "<";
+    }
+    #chat .msg[data-type="message"] .from .user::after {
+        content: ">";
+    }
+    /** Adjust message spacing/density **/
+    /* #chat .time,
+    #chat .from,
+    #chat .content {
+        padding-top: 5px;
+        padding-bottom: 5px;
+         padding: 0; 
+    } */
+    /** Bigger text **/
+    .networks .network .channel-list-item,
+    #chat .msg,
+    /*   #chat .userlist, */
+    #form #nick,
+    #form #input,
+    #form #upload,
+    #context-menu,
+    #form #submit,
+    #sidebar .chan,
+    #sidebar .chan.lobby,
+    #sidebar .network,
+    #sidebar .networks,
+    #sidebar .badge,
+    #windows .header .topic,
+    #windows .header .title,
+    .emoji,
+    .textcomplete-menu {
+        font-size: 13pt;
+    }
+    /** Wrap to the next line so we use all the space effectively like on mobile **/
+    #chat .msg {
+        display: block;
+        padding: 3px 10px;
+    }
+    #chat .condensed .msg {
+        padding: 2px 0;
+    }
+    #chat .time,
+    #chat .from,
+    #chat .content {
+        border: 0;
+        display: inline;
+    }
+    /** Large enough userlist **/
+    #chat .userlist {
+        width: auto;
+    }
+    /** Enlarge header bar to view everything in there **/
+    #windows .header:hover {
+        height: auto;
+    }
+    /** Show nick **/
+    #form #nick {
+        display: block;
+        visibility: visible;
+        text-transform: lowercase;
+    }
+    #chat-container {
+        padding-bottom: 30px;
+    }
+}

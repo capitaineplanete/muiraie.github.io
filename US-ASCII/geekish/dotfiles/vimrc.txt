@@ -1,0 +1,122 @@
+" Configuration file for Vi Improved, save as ~/.vimrc to use.
+" Written on 23.10.21 by muiraie
+
+" auto reload vimrc when editing it
+autocmd! bufwritepost .vimrc source ~/.vimrc
+" Some mappings
+let mapleader=" "
+map <F5> :!pandoc % -o %:t:r.pdf && open<cr>
+command NE NERDTree
+map <leader>f :Goyo <bar> highlight StatusLineNC ctermfg=white<CR>
+map <leader>s :set spell!<CR>
+map <leader>l :set list!<CR> " Toggle tabs and EOL, to enable by default: set list
+" nnoremap <Leader>cs :ThesaurusQueryReplaceCurrentWord<CR>
+
+" Basic
+set wildmode=longest,list,full " autocompletion for paths
+set number " show line numbers
+hi LineNr ctermfg=7
+filetype plugin indent on " for plugins to load correctly 
+syntax on " enable syntax highlighting
+set noerrorbells belloff=all " NO ERROR BELLS GODDAMMIT
+set undodir=~/.vim/undodir
+" set undofile
+set encoding=utf-8 " encoding
+set nofoldenable " dont fold by default
+hi clear SpellBad
+hi SpellBad cterm=underline ctermfg=red
+hi SpellBad gui=undercurl " Set style for gVim
+
+" Uncomment the following to have Vim jump to the last position when
+" reopening a file
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+
+" Searching
+set showmatch
+set hlsearch " highlight search results
+set ignorecase " do case insensitive search...
+set incsearch " do incremental search
+" set smartcase " ...unless capital letters are used
+
+" Visualize tabs and newlines
+set listchars=tab:▸\ ,eol:¬
+" set showbreak=+++
+
+" Normally we use vim-extensions. If you want true vi-compatibility
+" remove change the following statements
+set nocompatible        " Use Vim defaults instead of 100% vi compatibility
+set backspace=indent,eol,start  " more powerful backspacing
+
+" Now we set some defaults for the editor
+set history=50          " keep 50 lines of command line history
+set ruler               " show the cursor position all the time
+
+" modelines have historically been a source of security/resource
+" vulnerabilities -- disable by default, even when 'nocompatible' is set
+set nomodeline
+
+" Suffixes that get lower priority when doing tab completion for filenames.
+" These are files we are not likely to want to edit or read.
+set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
+
+" Whitespace
+set wrap
+set textwidth=100 "Ensures that each line is not longer than 100 columns
+" set formatoptions=tcqrn1
+" set tabstop=4
+" set shiftwidth=4
+" set softtabstop=4
+" set expandtab
+" set noshiftround
+" set expandtab
+" set linebreak
+
+" Plugins
+call plug#begin('~/.vim/plugged')
+
+" This is for color themes
+
+" Plug 'colepeters/spacemacs-theme.vim'
+" Plug 'sainnhe/gruvbox-material'
+" Plug 'phanviet/vim-monokai-pro'
+" Plug 'flazz/vim-colorschemes'
+" Plug 'chriskempson/base16-vim'
+" Plug 'gruvbox-community/gruvbox'
+
+"   This is a selection of plugins to make prose writing easier.
+" Plug 'dpelle/vim-LanguageTool'
+Plug 'ron89/thesaurus_query.vim'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+Plug 'reedes/vim-wordy'
+
+" Others
+Plug 'mbbill/undotree'
+Plug 'plasticboy/vim-markdown'
+Plug 'preservim/nerdtree'
+" Plug 'vim-utils/vim-man'
+" Plug 'git@github.com:ycm-core/YouCompleteMe.git'
+call plug#end()
+
+function! s:goyo_enter()
+Goyo x80%
+Goyo 60%
+endfunction
+function! s:goyo_leave()
+hi LineNr ctermfg=7
+endfunction
+autocmd! User GoyoEnter nested call <SID>goyo_enter()
+autocmd! User GoyoLeave nested call <SID>goyo_leave()
+
+" Commenting blocks of code.
+augroup commenting_blocks_of_code
+  autocmd!
+  autocmd FileType c,cpp,java,scala let b:comment_leader = '// '
+  autocmd FileType sh,ruby,python   let b:comment_leader = '# '
+  autocmd FileType conf,fstab       let b:comment_leader = '# '
+  autocmd FileType tex              let b:comment_leader = '% '
+  autocmd FileType mail             let b:comment_leader = '> '
+  autocmd FileType vim              let b:comment_leader = '" '
+augroup END
+noremap <silent> ,cc :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:nohlsearch<CR>
+noremap <silent> ,cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>

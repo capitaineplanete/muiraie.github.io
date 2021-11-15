@@ -1,0 +1,25 @@
+# Compile Irssi on macOS (unofficial)
+
++ `$ cd irssi`
++ `$ brew install pkg-config libffi pcre gettext glib openssl`
++ `$ echo 'export PATH="/usr/local/opt/openssl/bin:$PATH"' >> ~/.zshrc`
++ `$ export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"`
++  Check with `$ pkg-config openssl --libs`
++ `$ ./configure ARCHFLAGS='-arch x86_64' LD_FLAGS='`pkg-config openssl --libs`' CPP_FLAGS='`pkg-config openssl --cflags`' `
++ `$ make install`
+
+This assumes that yout you are using zsh, openssl, compiling for the x86_64 archetecture and that
+you've already installed and agreed to xcode cli tools' TOS (xcode-select --install && sudo xcodebuild -license accept).
+Feel free you tweak the above as you see fit,
+
+possible modifications: 
+zsh -> bash
+openssl -> openssl@3
+ARCHFLAGS -> arm64 x86_64 (??)
+
+if you're compiling on ARM you need to keep in mind that homebrew installs x86_64 applications in /usr/local 
+(e.g. /usr/local/bin/brew) and aarch64 ones in /opt/homebrew (e.g. /opt/homebrew/bin/brew). Take a
+look at docs.brew.sh/Installation for more information.
+
+muiraie
+
