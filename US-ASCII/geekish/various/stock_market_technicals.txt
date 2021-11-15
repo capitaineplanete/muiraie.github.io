@@ -1,0 +1,63 @@
+What to Look for Before Purchasing Stock Technicals
+---------------------------------------------------
+
+Support levels, micro(15,30,1hr,4hr) and macro(daily,weekly, monthly, yearly).
+Resistance levels, micro and macro(same as above).
+Trend(is it bullish, bearish or currently consolidating)?
++ Make sure to look at micro and macro scales
+Mental stoploss (should be near the bottom support level on the trend that you are looking at).
+Candlesticks (what are they telling you?)
+Volume(is there alot of liquid in the stock?)
+Float(how many shares are available to trade of that stock?)
+Short intrest(how many shares are soldshort, is a shortsqueeze possible, why/why not?)
+Moving averages(where is the stock in relation to these averages?)
+RSI (is it overbought or oversold?)
+Patterns (do you notice any bullish or bearish patterns?)
+Fundamentals – can be found at finviz.com 1.PricetoEarningsRatio(P/E)
++ Use within same sector to compare companies, compare it to the average PE of the sector
++ “What you pay for 1$ of company earnings”
++ Want the PE BELOW sector average.
+Price to Book Ratio(P/B)
++ If the PB is less or equal to 1 (1>x), the stock is trading at/below the value of its assets.
++ If the PB is greater than or equal to 1 (1<x), the stock is trading at/above the value of its assets.
++ Use this to compare companies within the same sector
++ Current share value ($) / (equity/share)
+Price to Earnings to Growth(PEG)
++ Good to use on a company with rapid growth
++ If PEG is less than or equal to 1 (1>x), company is undervalued.
++ If PEG is greater than or equal to 1 (1<x), the company might be overvalued.
+Return of Equity (ROE)
++ “how well a company generates earnings”
++ 17-20% = very good
++ 20-25% = excellent
++ 25%+ = superior
+Debt to Equity Ratio
++ Try to avoid companies that have a ratio greater than 2.
+Current Ratio
++ “the ability to pay short term and long term debt”
++ x>1 = liability > assets
++ x<1 = liability < assets
++ x>3 = holding back
+SEC Filings
++ File 4 = acquired/disposed of shares by insiders
++ File 8/10K, looking for management optimistic/bullish
+Financials
+IncomeStatement (Revenues & Expenses,P&L)
++ Revenue = driven by price and quantity of the product sold.
++ Costs of goods sold = price of labor, materials, etc.
++ General and Administrative Costs = price of sales people, utilities or rent).
++ that takes you down to operating profit or EBIT
++ from there you subtract out your interest expenses (amount of interest you pay for debt) and your taxes (companies have an effective tax rate) to get to your 'Net Income'
++ Financial institutions like to look at a metric called EBITDA (Earnings before Interest, Taxes, Depreciation & Amortization) which is a semi proxy for free cash flow
++ its essentially your operating earnings adding back Depreciation and Amortization which are non cash expenses
++ Depreciation (think of buildings, you have a building worth $100 and you depreciate it over 5 years so goes down by $20 every year but its not a true expense so you add it back
++ Amortization is for intangibles think like Intellectual Property
+BalanceSheet(Financial position at a given point in time)
++ Balance Sheet (financial position at point in time). Assets = Liabilities + Owner's Equity
++ That's the very definition
++ On the Assets side, you have Cash and equivalents (could be short-term treasuries that you can convert to cash pretty quickly usually within a year), Accounts Receivable (what a client owes you in credit), Inventory, PP&E (think like machinery for industrial companies). Liabilities is primarily A/P (what you owe ), Debt, both short and long term among others
++ then Owner's equity is Common Stock, Retained Earnings (Net Income - Dividends paid to date) flows from Net Income on income statement
+Cash Flow Statement(cash flow from operations, financing and operations)
++ Cash Flow Statement, 3 main ones are Cash Flow from Operations (pretty straightforward what this means, day-to-day cash outflows/inflows)
++ Cash Flow from Investing (CapEX is the big one here, represents purchase and sale of equipment, plant, properties, etc.) also outflows from acquisitions or inflows from sales show up here + Cash Flow from Financing is how the company raises money, you issue stock, you issue debt, and you get money
++ companies can also repurchase their stock to lower number of shares outstanding, shows confidence in the stock

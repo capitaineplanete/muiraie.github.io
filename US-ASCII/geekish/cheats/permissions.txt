@@ -1,0 +1,20 @@
+PERMISSIONS OCTAL DIGITS
+------------------------
+
+Octal Value	Binary representation	Meaning
+0		0			No read, write, and execute permissions (—)
+1		1			Only execute permission (–x)
+2		10			Only write permission (-w-)
+3		11			Write and execute permissions (-wx)
+4		100			Only read permission (r–)
+5		101			Read and execute permissions (r-x)
+6		110			Read and write permissions (rw-)
+7		111			Read, write, and execute permissions (rwx)
+
+
+Octal Digit	Binary Representation (rwx)	Permission
+1		001				execute only
+2		010				write only
+3		011				write and execute
+4		100				read only
+
