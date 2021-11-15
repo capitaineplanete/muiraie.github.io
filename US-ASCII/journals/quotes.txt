@@ -36,5 +36,5 @@ QUOTES
 "If you have to ask, you'll never know."
 -- Angelica Pickles
 
-" Le fait de pouvoir élire librement des maîtres ne supprime ni les maîtres ni les esclaves."
+"Le fait de pouvoir elire librement des maitres ne supprime ni les maitres ni les esclaves."
 -- Herbert Marcuse

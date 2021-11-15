@@ -1,5 +1,5 @@
 about this site
----------------
+===============
 
 This site is primarily a repository of plain text files US-ASCII that I 
 have either written, collected or converted. They are mostly set at a fixed 
