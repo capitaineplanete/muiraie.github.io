@@ -3,6 +3,7 @@
 
 " auto reload vimrc when editing it
 autocmd! bufwritepost .vimrc source ~/.vimrc
+
 " Some mappings
 let mapleader=" "
 map <F5> :!pandoc % -o %:t:r.pdf && open<cr>
@@ -13,68 +14,90 @@ map <leader>l :set list!<CR> " Toggle tabs and EOL, to enable by default: set li
 " nnoremap <Leader>cs :ThesaurusQueryReplaceCurrentWord<CR>
 
 " Basic
-set wildmode=longest,list,full " autocompletion for paths
-set number " show line numbers
+set wildmode=longest,list,full		" autocompletion for paths
+set number				" show line numbers
 hi LineNr ctermfg=7
-filetype plugin indent on " for plugins to load correctly 
-syntax on " enable syntax highlighting
-set noerrorbells belloff=all " NO ERROR BELLS GODDAMMIT
+set noerrorbells belloff=all		" NO ERROR BELLS GODDAMMIT
 set undodir=~/.vim/undodir
 " set undofile
-set encoding=utf-8 " encoding
-set nofoldenable " dont fold by default
+set nofoldenable			" dont fold by default
 hi clear SpellBad
 hi SpellBad cterm=underline ctermfg=red
 hi SpellBad gui=undercurl " Set style for gVim
+set statusline=...[%{&fo}]...
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
+" File type specific settings; so plugins to load correctly
+filetype on		" enable file type detection
+filetype plugin on	" load the plugins for specific file types
+filetype indent on	" automatically indent code
+au BufRead,BufNewFile *.md setlocal textwidth=79
+au BufRead,BufNewFile *.txt setlocal textwidth=79
+
+" Syntax highlighting
+" colorscheme solarized " set color scheme, must be installed first
+set background=dark	" dark background for console
+syntax enable		" enable syntax highlighting
+
+
+" Write settings
+set fileencoding=utf-8  " encoding used when saving file
+set confirm 		" confirm :q in case of unsaved changes
+" set nobackup		" do not keep the backup~ file
+
 " Searching
 set showmatch
-set hlsearch " highlight search results
-set ignorecase " do case insensitive search...
-set incsearch " do incremental search
-" set smartcase " ...unless capital letters are used
+set hlsearch 		" highlight search results
+set ignorecase 		" do case insensitive search...
+set incsearch 		" do incremental search
+" set smartcase 	" ...unless capital letters are used
 
-" Visualize tabs and newlines
-set listchars=tab:▸\ ,eol:¬
+" Visualize tabs and newlines 
+" characters for displaying non-printable characters
+set listchars=eol:$,tab:>-,trail:.,nbsp:_,extends:+,precedes:+
+" set listchars=tab:▸\ ,eol:¬
 " set showbreak=+++
 
 " Normally we use vim-extensions. If you want true vi-compatibility
 " remove change the following statements
-set nocompatible        " Use Vim defaults instead of 100% vi compatibility
-set backspace=indent,eol,start  " more powerful backspacing
+set nocompatible	" Use Vim defaults instead of 100% vi compatibility
 
 " Now we set some defaults for the editor
 set history=50          " keep 50 lines of command line history
 set ruler               " show the cursor position all the time
+set encoding=utf-8 	" encoding used for displaying file
+set showmode 		" show insert/replace/visual mode
 
 " modelines have historically been a source of security/resource
 " vulnerabilities -- disable by default, even when 'nocompatible' is set
-set nomodeline
+" set nomodeline
 
 " Suffixes that get lower priority when doing tab completion for filenames.
 " These are files we are not likely to want to edit or read.
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
 
-" Whitespace
+" Edit settings & whitespace
+set backspace=indent,eol,start  " more powerful backspacing;
+				" backspacing over everything in insert mode
 set wrap
-set textwidth=100 "Ensures that each line is not longer than 100 columns
-" set formatoptions=tcqrn1
-" set tabstop=4
-" set shiftwidth=4
-" set softtabstop=4
-" set expandtab
+set textwidth=79 		" ensures that each line is not longer than 79 columns
+set linebreak			" to get the break at a word boundary.
+set tabstop=8			" set tabulator length to 8 columns
+set shiftwidth=8 		" set indentation depth to 8 columns
+set softtabstop=8 		" backspacing over 8 spaces like over tabs
+" set expandtab 		" fill tabs with spaces
 " set noshiftround
-" set expandtab
-" set linebreak
+" set formatoptions=tcqrn1
+" set nojoinspaces 		" no extra space after '.' when joining lines
+set formatoptions=cqt
 
 " Plugins
 call plug#begin('~/.vim/plugged')
 
-" This is for color themes
+" This is for colour themes
 
 " Plug 'colepeters/spacemacs-theme.vim'
 " Plug 'sainnhe/gruvbox-material'
@@ -100,13 +123,27 @@ call plug#end()
 
 function! s:goyo_enter()
 Goyo x80%
-Goyo 60%
+Goyo 79
 endfunction
 function! s:goyo_leave()
 hi LineNr ctermfg=7
 endfunction
 autocmd! User GoyoEnter nested call <SID>goyo_enter()
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
+
+" This will highlight all characters past 74 columns (tweak that number as
+" esired) in dark grey (tweak that color as desired), and is a nice visual
+" ue when auto linewrapping isn't turned on when you should think about 
+" reaking things.
+
+augroup vimrc_autocmds
+"   autocmd BufEnter * highlight OverLength cterm=underline ctermfg=darkgrey 
+"   autocmd BufEnter * match OverLength /\%81v.*/
+"   Show a line at 80 characters
+"   autocmd BufWinEnter,WinEnter * setlocal colorcolumn=80
+"   autocmd BufWinLeave,WinLeave * setlocal colorcolumn=0
+"   set colorcolumn=+1
+augroup END
 
 " Commenting blocks of code.
 augroup commenting_blocks_of_code
